@@ -1,0 +1,125 @@
+/* Gaya tambahan untuk header dengan gambar latar belakang */
+.header {
+    background-image: url('../../gambar/kopsmpfata.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Gaya tambahan untuk navbar dengan warna steelblue */
+.navbar {
+    background-color: rgb(0, 18, 119);
+    padding: 10px;
+}
+
+.navbar .nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Warna kuning untuk tautan saat hover */
+.navbar .nav-link:hover {
+    background-color: rgb(255, 242, 0);
+    color: black;
+}
+
+/* Gaya tambahan untuk tombol */
+.btn-primary {
+    background-color: rgb(255, 242, 0);
+    border-color: rgb(255, 242, 0);
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: rgb(230, 215, 0);
+    border-color: rgb(230, 215, 0);
+}
+
+/* Gaya tambahan untuk card */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* Placeholder styling */
+.placeholder {
+    height: 20px;
+    background-color: #e0e0e0;
+}
+
+/* Gaya untuk halaman login */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    background-color: #eee;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+.signup-text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.signup-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
